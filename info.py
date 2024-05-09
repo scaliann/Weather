@@ -201,6 +201,7 @@ def plot_thingspeak_noise():
     fig.update_layout(xaxis=dict(title='Время'), yaxis=dict(title='Уровень шума', range=[200, 10000
                                                                                          ]))
 
+
     # Настраиваем метки осей
     fig.update_layout(xaxis=dict(title='Время'), yaxis=dict(title='Уровень шума'))
 
